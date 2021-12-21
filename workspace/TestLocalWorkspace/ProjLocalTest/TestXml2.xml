@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns:books xmlns:ns="http://www.tempuri.org/XML">
+	<ns:book id="1" title="Lord Of the Rings.">
+		<ns:author name="Sosoaca"/>
+	</ns:book>
+	<ns:book id="2" title="Principia Mathematica">
+		<ns:author name="Bertrand Russell"/>
+		<ns:author name="Alfred North Whitehead"/>
+	</ns:book>
+	<ns:book id="3" title="Black Holes, White Dwarfs and Neutron Stars: The Physics of Compact Objects">
+		<ns:author name="Stuart L. Shapiro"/>
+		<ns:author name="Saul A. Teukolsky"/>
+	</ns:book>
+	<ns:Book1 schiesse="123" attribute-name="123" attribute-name1="123"/>
+	<ns:Book1 schiesse="1233" attribute-name="3313" attribute-name1="11"/>
+	<ns:Book1 schiesse="123" attribute-name="123" attribute-name1="123"/>
+</ns:books>

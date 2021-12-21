@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="74">
+  <das:const-function id="52">
+    <das:const-return-value id="53" value="FinanceDimension4" type="string" />
+  </das:const-function>
+  <das:is-not-empty-function id="56">
+    <das:return-value id="58" />
+    <das:in-param id="57" name="string" src="34" />
+  </das:is-not-empty-function>
+  <das:and-function id="64">
+    <das:return-value id="67" />
+    <das:in-param id="65" src="58" />
+    <das:in-param id="66" src="70" />
+  </das:and-function>
+  <das:is-not-empty-function id="68">
+    <das:return-value id="70" />
+    <das:in-param id="69" name="string" src="36" />
+  </das:is-not-empty-function>
+  <das:open-api-data-source id="7" connection-id="6" name="/lmrkfin/soap/classes/FinanceDimension4/lists/_generic" path="/lmrkfin/soap/classes/FinanceDimension4/lists/_generic">
+    <das:hierarchical-data-source id="8" name="root">
+      <das:hierarchical-data-source id="9" name="array">
+        <das:hierarchical-data-source id="11" name="message">
+          <das:field id="12" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="13" name="_fields">
+          <das:hierarchical-data-source id="33" name="FinanceDimension4">
+            <das:field id="34" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="35" name="UniqueID">
+            <das:field id="36" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="37" name="Description">
+            <das:field id="38" name="text()" />
+          </das:hierarchical-data-source>
+          <das:field id="14" name="text()" />
+        </das:hierarchical-data-source>
+        <das:field id="10" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+    <das:in-param id="15" name="_fields" src="28" />
+    <das:in-param id="16" name="_limit" src="30" />
+    <das:in-param id="17" name="_paging" is-optional="true" />
+    <das:in-param id="18" name="_fts" is-optional="true" />
+    <das:in-param id="19" name="_tts" is-optional="true" />
+    <das:in-param id="20" name="_rrs" is-optional="true" />
+    <das:in-param id="21" name="_syncWait" is-optional="true" />
+    <das:in-param id="22" name="_filter" is-optional="true" />
+    <das:in-param id="23" name="_lplFilter" is-optional="true" />
+    <das:in-param id="24" name="_setName" is-optional="true" />
+    <das:in-param id="25" name="_links" is-optional="true" />
+    <das:in-param id="26" name="_pageNav" is-optional="true" />
+    <das:in-param id="27" name="_out" is-optional="true" />
+  </das:open-api-data-source>
+  <das:output id="4">
+    <das:element id="5" name="GeneralLedgerAccountList" disable-namespace="true">
+      <das:element-sequence id="39" name="GeneralLedgerAccount" disable-namespace="true" data-source="55">
+        <das:element id="50" name="Account" disable-namespace="true">
+          <das:attribute id="51" name="text()" value="53" />
+        </das:element>
+        <das:element id="40" name="Value" disable-namespace="true">
+          <das:attribute id="45" name="text()" value="34" />
+        </das:element>
+        <das:element id="41" name="SourceSystemId" disable-namespace="true">
+          <das:attribute id="44" name="text()" value="36" />
+        </das:element>
+        <das:element id="42" name="Description" disable-namespace="true">
+          <das:attribute id="43" name="text()" value="38" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <das:filter-function id="55" data-source="9" filter="67" />
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-output id="4" x="1459.332" y="338.666" width="309.999" height="275.333" />
+    <dia:diagram-open-api-data-source id="7" x="335.999" y="171.999" width="627.332" height="437.999" />
+    <dia:diagram-subdocument-param id="28" x="89.333" y="190.666" width="80.000" height="35.000" />
+    <dia:diagram-subdocument-param id="30" x="92.666" y="247.333" width="80.000" height="35.333" />
+    <dia:diagram-const-function id="52" x="1201.999" y="285.333" width="175.333" height="35.333" />
+    <dia:diagram-filter-function id="55" x="1315.332" y="128.666" width="131.999" height="74.666" />
+    <dia:diagram-function id="56" x="1011.999" y="117.333" width="140.000" height="65.333" />
+    <dia:diagram-function id="64" x="1201.999" y="190.666" width="60.000" height="35.000" />
+    <dia:diagram-function id="68" x="1017.999" y="245.333" width="140.000" height="65.333" />
+    <dia:connection id="29" src="28" dest="15" />
+    <dia:connection id="31" src="30" dest="16" />
+    <dia:connection id="47" src="34" dest="45" />
+    <dia:connection id="48" src="36" dest="44" />
+    <dia:connection id="49" src="38" dest="43" />
+    <dia:connection id="54" src="53" dest="51" />
+    <dia:connection id="59" src="9" dest="55:datasource" />
+    <dia:connection id="60" src="34" dest="57" />
+    <dia:connection id="62" src="55" dest="39" />
+    <dia:connection id="71" src="36" dest="69" />
+    <dia:connection id="72" src="67" dest="55:filter" />
+    <dia:connection id="73" src="58" dest="65" />
+    <dia:connection id="74" src="70" dest="66" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="6" name="Infor REST API" />
+  </das:database-connections>
+  <das:subdocument-param id="28" name="_fields" value="FinanceDimension4,UniqueID,Description" type="string" />
+  <das:subdocument-param id="30" name="_limit" value="3000" type="int" />
+</das:job>

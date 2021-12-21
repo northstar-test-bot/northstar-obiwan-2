@@ -1,0 +1,3 @@
+Rule Name,Order,Field,Operator,Value,Property Name, Value,Property Name, Value
+R1,1,invoiceAmount,>,10000,First,1,Second,2
+R2,2,invoiceAmount,>,0,First,3,Second,4

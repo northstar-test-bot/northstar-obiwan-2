@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="120">
+  <das:open-api-data-source id="112" connection-id="6" name="/api/internal/purchase-orders/last-update-date" path="/api/internal/purchase-orders/last-update-date">
+    <das:hierarchical-data-source id="113" name="root">
+      <das:hierarchical-data-source id="114" name="lastUpdateDate">
+        <das:field id="115" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+  </das:open-api-data-source>
+  <das:output id="4">
+    <das:element id="5" name="root" disable-namespace="true">
+      <das:element-sequence id="43" name="LastUpdateDate" disable-namespace="true" data-source="114">
+        <das:element id="44" name="Date" disable-namespace="true">
+          <das:attribute id="45" name="text()" value="115" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-note id="2" x="390.000" y="25.000" width="500.000" height="100.000" text="Start by adding tables, SQL queries, XML files or Web services into this diagram.         Drag and drop fields over the Output element in order to map that field to an output value." title="Getting started" />
+    <dia:diagram-output id="4" x="793.000" y="273.000" width="200.000" height="100.000" />
+    <dia:diagram-subdocument-param id="41" x="50.000" y="10.000" width="80.000" height="35.000" />
+    <dia:diagram-open-api-data-source id="112" x="329.000" y="346.000" width="200.000" height="100.000" />
+    <dia:diagram-subdocument-param id="119" x="10.000" y="10.000" width="80.000" height="35.000" />
+    <dia:connection id="117" src="114" dest="43" />
+    <dia:connection id="118" src="115" dest="45" />
+    <dia:connection id="120" src="119" dest="116" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="6" name="BuiltIn REST API" />
+  </das:database-connections>
+</das:job>

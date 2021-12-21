@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns:task xmlns:ns="http://www.tempuri.org/XML" name="Review And Approval Data Source Example">
+	<ns:user firstName="Joe" lastName="Doe" email="joe.doe@fakeemail.com" />
+	<ns:workItem name="Invoice Example">
+		<ns:link>https://dev-nextgen-frontend.mhccom.net/</ns:link>
+	</ns:workItem>
+	<ns:comment firstName="Jane" lastName="Doe" email="jane.doe@fakeemail.com">Give me more information</ns:comment>
+	<ns:newuser firstName="Mike" lastName="Doe" email="mike.doe@fakeemail.com" />
+</ns:task>

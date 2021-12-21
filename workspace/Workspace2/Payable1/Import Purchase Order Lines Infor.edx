@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="144">
+  <das:const-function id="27">
+    <das:const-return-value id="28" value="UniqueID,PurchaseOrder,PurchaseOrderLine,Quantity,VendorItem,EnteredUnitCost,Description,IsClosed,ExtendedAmount,LastUpdateDate,EnteredBuyUOM" type="string" />
+  </das:const-function>
+  <das:const-function id="30">
+    <das:const-return-value id="31" value="50" type="int" />
+  </das:const-function>
+  <das:const-function id="33">
+    <das:const-return-value id="34" value="IsClosed::False" type="string" />
+  </das:const-function>
+  <das:const-function id="36">
+    <das:const-return-value id="37" value="True" type="bool" />
+  </das:const-function>
+  <das:const-function id="39">
+    <das:const-return-value id="40" value="JSON" type="string" />
+  </das:const-function>
+  <das:const-function id="42">
+    <das:const-return-value id="43" value="-1" type="int" />
+  </das:const-function>
+  <das:datetime-utc-now-function id="44">
+    <das:return-value id="45" />
+  </das:datetime-utc-now-function>
+  <das:datetime-tostring-function id="56">
+    <das:return-value id="59" />
+    <das:in-param id="57" name="date" src="136" />
+    <das:in-param id="58" name="format" src="62" />
+  </das:datetime-tostring-function>
+  <das:const-function id="61">
+    <das:const-return-value id="62" value="YYYYMMddhhmmss" type="string" />
+  </das:const-function>
+  <das:concat-function id="64">
+    <das:return-value id="67" />
+    <das:in-param id="65" name="string" src="59" />
+    <das:in-param id="66" name="string" src="69" />
+  </das:concat-function>
+  <das:const-function id="68">
+    <das:const-return-value id="69" value="00" type="string" />
+  </das:const-function>
+  <das:is-not-empty-function id="72">
+    <das:return-value id="74" />
+    <das:in-param id="73" name="string" src="102" />
+  </das:is-not-empty-function>
+  <das:datetime-add-days-function id="133">
+    <das:return-value id="136" />
+    <das:in-param id="134" name="date" src="45" />
+    <das:in-param id="135" name="days" src="43" />
+  </das:datetime-add-days-function>
+  <das:open-api-data-source id="6" pagination-type="paginationlinks" connection-id="5" name="/lmrkfin/soap/classes/PurchaseOrderLine/lists/_generic" path="/lmrkfin/soap/classes/PurchaseOrderLine/lists/_generic">
+    <das:pagination base-xpath="/root/array/_links/">
+      <das:pagination-links xpath="/href"></das:pagination-links>
+      <das:pagination-links-condition xpath="/rel" value="next"></das:pagination-links-condition>
+    </das:pagination>
+    <das:hierarchical-data-source id="7" name="root">
+      <das:hierarchical-data-source id="8" name="array">
+        <das:hierarchical-data-source id="10" name="message">
+          <das:field id="11" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="12" name="_fields">
+          <das:hierarchical-data-source id="99" name="UniqueID">
+            <das:field id="100" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="101" name="PurchaseOrder">
+            <das:field id="102" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="103" name="Quantity">
+            <das:field id="104" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="105" name="VendorItem">
+            <das:field id="106" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="107" name="EnteredUnitCost">
+            <das:field id="108" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="109" name="Description">
+            <das:field id="110" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="111" name="IsClosed">
+            <das:field id="112" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="113" name="ExtendedAmount">
+            <das:field id="114" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="115" name="LastUpdateDate">
+            <das:field id="116" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="125" name="PurchaseOrderLine">
+            <das:field id="126" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="140" name="EnteredBuyUOM">
+            <das:field id="141" name="text()" />
+          </das:hierarchical-data-source>
+          <das:field id="13" name="text()" />
+        </das:hierarchical-data-source>
+        <das:field id="9" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+    <das:in-param id="14" name="_fields" src="28" />
+    <das:in-param id="15" name="_limit" src="31" />
+    <das:in-param id="16" name="_paging" is-optional="true" />
+    <das:in-param id="17" name="_fts" is-optional="true" />
+    <das:in-param id="18" name="_tts" is-optional="true" />
+    <das:in-param id="19" name="_rrs" is-optional="true" />
+    <das:in-param id="20" name="_syncWait" is-optional="true" />
+    <das:in-param id="21" name="_filter" src="34" is-optional="true" />
+    <das:in-param id="22" name="_lplFilter" is-optional="true" />
+    <das:in-param id="23" name="_setName" is-optional="true" />
+    <das:in-param id="24" name="_links" is-optional="true" />
+    <das:in-param id="25" name="_pageNav" src="37" is-optional="true" />
+    <das:in-param id="26" name="_out" src="40" is-optional="true" />
+  </das:open-api-data-source>
+  <das:output id="1">
+    <das:element id="2" name="PurchaseOrderLineItemList" disable-namespace="true">
+      <das:element-sequence id="77" name="PurchaseOrderLine" disable-namespace="true" data-source="75">
+        <das:element id="78" name="PurchaseOrder" disable-namespace="true">
+          <das:attribute id="79" name="text()" value="102" />
+        </das:element>
+        <das:element id="80" name="Quantity" disable-namespace="true">
+          <das:attribute id="81" name="text()" value="104" />
+        </das:element>
+        <das:element id="82" name="VendorItem" disable-namespace="true">
+          <das:attribute id="83" name="text()" value="106" />
+        </das:element>
+        <das:element id="84" name="EnteredUnitCost" disable-namespace="true">
+          <das:attribute id="85" name="text()" value="108" />
+        </das:element>
+        <das:element id="86" name="Description" disable-namespace="true">
+          <das:attribute id="87" name="text()" value="110" />
+        </das:element>
+        <das:element id="88" name="IsClosed" disable-namespace="true">
+          <das:attribute id="89" name="text()" value="112" />
+        </das:element>
+        <das:element id="90" name="ExtendedAmount" disable-namespace="true">
+          <das:attribute id="91" name="text()" value="114" />
+        </das:element>
+        <das:element id="92" name="LastUpdateDate" disable-namespace="true">
+          <das:attribute id="93" name="text()" value="67" />
+        </das:element>
+        <das:element id="94" name="PurchaseOrderLineNumber" disable-namespace="true">
+          <das:attribute id="95" name="text()" value="126" />
+        </das:element>
+        <das:element id="142" name="UOM" disable-namespace="true">
+          <das:attribute id="143" name="text()" value="141" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <das:filter-function id="75" data-source="8" filter="74" />
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-output id="1" x="1095.874" y="285.249" width="253.249" height="441.999" />
+    <dia:diagram-open-api-data-source id="6" x="252.124" y="7.749" width="489.499" height="543.249" />
+    <dia:diagram-const-function id="27" x="10.249" y="10.249" width="101.999" height="36.999" />
+    <dia:diagram-const-function id="30" x="11.000" y="57.000" width="80.000" height="35.000" />
+    <dia:diagram-const-function id="33" x="12.000" y="102.000" width="80.000" height="35.000" />
+    <dia:diagram-const-function id="36" x="13.000" y="145.000" width="80.000" height="35.000" />
+    <dia:diagram-const-function id="39" x="12.749" y="197.749" width="95.124" height="36.999" />
+    <dia:diagram-const-function id="42" x="125.874" y="631.499" width="80.000" height="35.000" />
+    <dia:diagram-function id="44" x="55.249" y="548.374" width="152.624" height="65.000" />
+    <dia:diagram-function id="56" x="563.000" y="569.000" width="140.000" height="65.000" />
+    <dia:diagram-const-function id="61" x="341.499" y="658.374" width="176.374" height="35.000" />
+    <dia:diagram-function id="64" x="735.000" y="663.000" width="140.000" height="65.000" />
+    <dia:diagram-const-function id="68" x="608.374" y="732.749" width="80.000" height="35.000" />
+    <dia:diagram-function id="72" x="784.624" y="131.499" width="140.000" height="65.000" />
+    <dia:diagram-filter-function id="75" x="928.000" y="62.000" width="100.000" height="50.000" />
+    <dia:diagram-function id="133" x="318.374" y="571.499" width="140.000" height="65.000" />
+    <dia:connection id="29" src="28" dest="14" />
+    <dia:connection id="32" src="31" dest="15" />
+    <dia:connection id="35" src="34" dest="21" />
+    <dia:connection id="38" src="37" dest="25" />
+    <dia:connection id="41" src="40" dest="26" />
+    <dia:connection id="63" src="62" dest="58" />
+    <dia:connection id="70" src="69" dest="66" />
+    <dia:connection id="71" src="59" dest="65" />
+    <dia:connection id="76" src="74" dest="75:filter" />
+    <dia:connection id="96" src="67" dest="93" />
+    <dia:connection id="97" src="75" dest="77" />
+    <dia:connection id="98" src="8" dest="75:datasource" />
+    <dia:connection id="117" src="102" dest="73" />
+    <dia:connection id="118" src="102" dest="79" />
+    <dia:connection id="119" src="104" dest="81" />
+    <dia:connection id="120" src="106" dest="83" />
+    <dia:connection id="121" src="108" dest="85" />
+    <dia:connection id="122" src="110" dest="87" />
+    <dia:connection id="123" src="112" dest="89" />
+    <dia:connection id="124" src="114" dest="91" />
+    <dia:connection id="127" src="126" dest="95" />
+    <dia:connection id="137" src="45" dest="134" />
+    <dia:connection id="138" src="43" dest="135" />
+    <dia:connection id="139" src="136" dest="57" />
+    <dia:connection id="144" src="141" dest="143" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="5" name="Infor REST API" />
+  </das:database-connections>
+</das:job>

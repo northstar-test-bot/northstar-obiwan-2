@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xfd:document xmlns:xfd="http://www.ecrion.com/xfd/1.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xf="http://www.ecrion.com/xf/1.0" xmlns:xc="http://www.ecrion.com/2008/xc" sample-dax=".\Data.edx">
+	<xfd:localization>
+		<xfd:locale language-id="en_US" language-name="English (United States)" />
+	</xfd:localization>
+	<xfd:schema src="data:;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjx4czpzY2hlbWEgYXR0cmlidXRlRm9ybURlZmF1bHQ9InVucXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmllZCIgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0icm9vdCI+DQogICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJjb25maWd1cmF0aW9uIj4NCiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImFjY291bnROdW1iZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idHJhbnNpdE51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJyZWNvbkRhdGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua1BQYXlGb3JtYXQiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXltZW50UmVjb3JkcyI+DQogICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJyZWNvcmQiPg0KICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZSBtaXhlZD0idHJ1ZSI+DQogICAgICAgICAgICAgICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImlkIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImlkTnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheW9yTmFtZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXlvckFkZHJlc3MxIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheW9yQWRkcmVzczIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5b3JBZGRyZXNzMyIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXlvckFkZHJlc3M0IiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheW9yQWRkcmVzczUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5b3JTdGF0ZVByb3YiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5b3JQb3N0YWxDb2RlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheW9yQ291bnRyeSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJiYW5rTmFtZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJiYW5rQWRkcmVzczEiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua0FkZHJlc3MyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImJhbmtBZGRyZXNzMyIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJiYW5rQWRkcmVzczQiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua0FkZHJlc3M1IiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImJhbmtTdGF0ZVByb3YiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua1Bvc3RhbENvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua0NvdW50cnkiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iZ2xuTnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheW9yQ291bnRyeU5hbWUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYmFua0NvdW50cnlOYW1lIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InZlbmRvck51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJlZGlOdW1iZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yQ2xhc3MiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaGFuZGxlQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJjaGVja0Ftb3VudCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJjcmVkaXREZWJpdEZsYWciIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5bWVudE1ldGhvZENvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5bWVudEZvcm1hdCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJkZmlpZFF1YWxpZmllciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJvcmlnaW5hdGluZ0RGSUlETnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImFjY291bnROdW1iZXJRdWFsaWZpZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0ib3JpZ2luYXRpbmdBY2NvdW50TnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Im9yaWdpbmF0aW5nQ29tcGFueUlkIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InJlY2VpdmluZ0RGSUlEUXVhbGlmaWVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InJlY2VpdmluZ0RGSUlkTnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InJlY2VpdmluZ0FjY291bnROdW1iZXJRdWFsaWZpZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icmVjZWl2aW5nQWNjb3VudE51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJlZmZlY3RpdmVFbnRyeURhdGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iYnVzaW5lc3NGdW5jdGlvbkNvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idHJhY2VUeXBlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InJlZmVyZW5jZU51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJlbnRpdHlJZENvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iY3VycmVuY3lDb2RlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImV4Y2hhbmdlUmF0ZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJkYXRlUXVhbGlmaWVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImNoZWNrRGF0ZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJlbnRpdHlJZGVudGlmaWVyQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJvcmlnRW50aXR5SWRlbnRpZmllckNvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5ZWVOYW1lIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImxlZ2FsTmFtZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJyZW1pdFRvTG9jYXRpb24iIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yQWNjb3VudE51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXllZUFkZHJlc3MxIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheWVlQWRkcmVzczIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5ZWVBZGRyZXNzMyIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXllZUFkZHJlc3M0IiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheWVlQWRkcmVzczUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5ZWVTdGF0ZVByb3YiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icGF5ZWVQb3N0YWxDb2RlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InBheWVlQ291bnRyeSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JVc2VyRmllbGQxIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InZlbmRvclVzZXJGaWVsZDIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yVXNlckZpZWxkMyIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JVc2VyRmllbGQ0IiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InZlbmRvclVzZXJGaWVsZDUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yVXNlckZpZWxkNiIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JGYXhQcmVmaXgiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yRmF4TnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InZlbmRvckZheEV4dGVuc2lvbiIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JFbWFpbEFkZHJlc3MiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idmVuZG9yQ29udGFjdCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JQaG9uZVByZWZpeCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JQaG9uZU51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJ2ZW5kb3JQaG9uZUV4dGVuc2lvbiIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwYXllZUNvdW50cnlOYW1lIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImlzVm9pZGVkIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImRldGFpbFJlY29yZHMiPg0KICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iZGV0YWlsUmVjb3JkIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGUgbWl4ZWQ9InRydWUiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJpbmZvckRldGFpbFJlY29yZElkIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InJlZmVyZW5jZU51bWJlclF1YWxpZmllciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJpbnZvaWNlTnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9InN1ZmZpeCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJjaGVja051bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJpbnZvaWNlVHlwZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJpbnZvaWNlTmV0UGF5bWVudCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJpbnZvaWNlR3Jvc3NBbW91bnQiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZURpc2NvdW50QW1vdW50IiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Imludm9pY2VDdXJyZW5jeSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwb051bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwb1JlbGVhc2VOdW1iZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icG9Db2RlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9ImRhdGVRdWFsaWZpZXIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZURhdGUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0idm91Y2hlck51bWJlciIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJwcm9jZXNzTGV2ZWwiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0icmVhc29uQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJyZWFzb25Db2RlRGVzY3JpcHRpb24iIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZVVzZXJGaWVsZDEiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZVVzZXJGaWVsZDIiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZVVzZXJGaWVsZDMiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZVVzZXJGaWVsZDQiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iaW52b2ljZVVzZXJGaWVsZDUiIHR5cGU9InhzOnN0cmluZyIgLz4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iY29tbWVudHMiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iY29tbWVudCIgdHlwZT0ieHM6c3RyaW5nIiAvPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgICAgICAgICAgICAgICAgICAgPC94czpjb21wbGV4VHlwZT4NCiAgICAgICAgICAgICAgICAgICAgPC94czplbGVtZW50Pg0KICAgICAgICAgICAgICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgPC94czpjb21wbGV4VHlwZT4NCiAgPC94czplbGVtZW50Pg0KPC94czpzY2hlbWE+" />
+	
+	<xfd:xslt-engine name="MsXml" />
+	<xf:stylesheet src="data:;base64,LypEZWZhdWx0IHN0eWxlcyovDQouTm9ybWFsDQp7DQoJZm9udC1mYW1pbHk6IENhbGlicmk7DQoJZm9udC1zaXplOiA4cHQ7DQp9DQoNCi5Ob1NwYWNpbmcNCnsNCglmb250LWZhbWlseTogQ2FsaWJyaTsNCglmb250LXNpemU6IDhwdDsNCn0NCg0KLkhlYWRpbmcxDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiAxMHB0Ow0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KCWNvbG9yOiAjMzY1RjkxOw0KfQ0KDQouSGVhZGluZzINCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDEwcHQ7DQoJZm9udC13ZWlnaHQ6IGJvbGQ7DQoJY29sb3I6ICM0RjgxQkQ7DQp9DQoNCi5UaXRsZQ0Kew0KCWZvbnQtZmFtaWx5OiBDYW1icmlhOw0KCWZvbnQtc2l6ZTogMjBwdDsNCglmb250LXdlaWdodDogYm9sZDsNCgljb2xvcjogIzE3MzY1RDsNCn0NCg0KLlN1YnRpdGxlDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiA5cHQ7DQoJdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7DQoJZm9udC1zdHlsZTogaXRhbGljOwkNCgljb2xvcjogIzRGODFCRDsNCn0NCg0KLlN1YnRpdGxlRW1waGFzaXMNCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDlwdDsNCgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsNCgljb2xvcjogIzgwODA4MDsNCn0NCg0KLkVtcGhhc2lzDQp7DQoJZm9udC1zdHlsZTogaXRhbGljOwkNCglmb250LXNpemU6IDE5cHQ7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQp9DQoNCi5JbnRlbnNlRW1waGFzaXMNCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDE5cHQ7DQoJZm9udC1zdHlsZTogaXRhbGljOw0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KCWNvbG9yOiAjNEY4MUJEOw0KfQ0KDQouU3Ryb25nDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiAxOXB0Ow0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KfQ==" default-stylesheet="true" />
+	<fo:layout-master-set xmlns:fo="http://www.w3.org/1999/XSL/Format">
+		<fo:simple-page-master fo:master-name="Letter Page" fo:page-width="612pt" fo:page-height="792pt">
+			<fo:region-body region-name="xsl-region-body" margin="50.4pt 50.4pt 220pt 50.4pt" />
+			<fo:region-before region-name="xsl-region-before" extent="50.4pt" display-align="after" />
+			<fo:region-after region-name="xsl-region-after" extent="270pt" />
+			<fo:region-start region-name="xsl-region-start" extent="50.4pt" />
+			<fo:region-end region-name="xsl-region-end" extent="50.4pt" />
+		</fo:simple-page-master>
+		<fo:simple-page-master master-name="Overflow" page-height="792pt" page-width="612pt">
+			<fo:region-body region-name="xsl-region-body" margin="50.4pt" />
+			<fo:region-before region-name="Overflow-region-before" display-align="after" extent="50.4pt" />
+			<fo:region-after region-name="Overflow-region-after" extent="50.4pt" />
+			<fo:region-start region-name="Overflow-region-start" extent="50.4pt" />
+			<fo:region-end region-name="Overflow-region-end" extent="50.4pt" />
+		</fo:simple-page-master>
+		<fo:page-sequence-master master-name="ComplexMaster1">
+			<fo:repeatable-page-master-alternatives maximum-repeats="no-limit">
+				<fo:conditional-page-master-reference master-reference="Letter Page" page-position="first" />
+				<fo:conditional-page-master-reference master-reference="Overflow" />
+			</fo:repeatable-page-master-alternatives>
+		</fo:page-sequence-master>
+		<fo:simple-page-master master-name="Layout 1" page-width="612pt" page-height="792pt">
+			<fo:region-body region-name="xsl-region-body" margin="50.4pt 50.4pt 50.4pt 50.4pt" />
+			<fo:region-before region-name="Layout 1-region-before" extent="50.4pt" display-align="after" />
+			<fo:region-after region-name="Layout 1-region-after" extent="50.4pt" />
+			<fo:region-start region-name="Layout 1-region-start" extent="50.4pt" />
+			<fo:region-end region-name="Layout 1-region-end" extent="50.4pt" />
+		</fo:simple-page-master>
+		<fo:page-sequence-master master-name="ComplexMaster2">
+			<fo:repeatable-page-master-alternatives>
+				<fo:conditional-page-master-reference master-reference="Letter Page" page-position="first" />
+				<fo:conditional-page-master-reference master-reference="Layout 1" />
+			</fo:repeatable-page-master-alternatives>
+		</fo:page-sequence-master>
+	</fo:layout-master-set>
+	<fo:page-sequence xmlns:fo="http://www.w3.org/1999/XSL/Format" master-reference="ComplexMaster2" name="Page Set" font-family="Arial" font-size="9pt">
+		<fo:static-content flow-name="xsl-region-before">
+			<fo:block>
+				<fo:table border-collapse="collapse" width="100%" table-layout="fixed">
+					<fo:table-column column-width="proportional-column-width(67.019)" column-number="1" />
+					<fo:table-column column-width="proportional-column-width(32.981)" column-number="2" />
+					<fo:table-body border="1px none none">
+						<fo:table-row>
+							<fo:table-cell border-top-color="black" border-right-color="Black" border-bottom-color="black" border-left-color="black" border-top-width="1pt" border-right-width="1px" border-bottom-width="1pt" border-left-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block font-size="11pt" font-weight="bold" border="1px none none"> <fo:block /> <fo:block /><xfd:field xpath="/root/paymentRecords/record/payorName" fo:id="1BA51B49" label="Payor Name" /> ● <xfd:field xpath="/root/paymentRecords/record/payorAddress1" fo:id="16811704" label="Payor Address" /> ● <xfd:field xpath="/root/paymentRecords/record/payorStateProv" fo:id="64B61719" label="Payor State" /> <xfd:field xpath="/root/paymentRecords/record/payorPostalCode" fo:id="1C3E171F" label="Payor Postal Code" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-top-color="black" border-right-color="Black" border-bottom-color="Black" border-left-color="Black" border-top-width="1pt" border-right-width="1px" border-bottom-width="1px" border-left-width="1px" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" text-align="right" display-align="after" number-rows-spanned="2">
+								<fo:block text-align="right" font-weight="bold"> </fo:block>
+								<fo:block text-align="right" font-weight="bold" font-size="11pt">No.<xfd:field xpath="/root/paymentRecords/record/referenceNumber" fo:id="4860210" label="ReferenceNumber" fo:font-weight="bold" /></fo:block>
+								<fo:block text-align="right" font-weight="bold" font-size="8pt">Check Date:<xfd:field xpath="/root/paymentRecords/record/checkDate" fo:id="79C21B47" label="Date" format="date:MM/dd/yy" /></fo:block>
+								<fo:block text-align="right" font-weight="bold" font-size="8pt">(<xfd:field xpath="/root/paymentRecords/record/vendorNumber" fo:id="4703739" label="VendorNo." />)</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell border-top-color="black" border-right-color="Black" border-bottom-color="black" border-left-color="black" border-top-width="1pt" border-right-width="1px" border-bottom-width="1pt" border-left-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block font-size="8pt" border="1px none none"><xfd:field xpath="/root/paymentRecords/record/payeeName" fo:id="5703245" label="Payee Info" fo:font-weight="bold" />, <xfd:field xpath="/root/paymentRecords/record/payeeAddress1" fo:id="2DDF1764" label="Payee Address" fo:font-weight="bold" /></fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-after">
+			<fo:block text-align="center">Page <fo:page-number format="1" /> of <fo:page-number-citation format="1" ref-id="xf#theEnd" /></fo:block>
+			<fo:block text-align="center"> </fo:block>
+			<fo:block text-align="center"> </fo:block>
+			<fo:block text-align="left"> </fo:block>
+			<fo:block text-align="left">
+				<fo:table border-collapse="collapse" width="100%" table-layout="fixed" font-size="9pt">
+					<fo:table-column column-width="proportional-column-width(20)" column-number="1" />
+					<fo:table-column column-width="proportional-column-width(29.859)" column-number="2" />
+					<fo:table-column column-width="proportional-column-width(25.516)" column-number="3" />
+					<fo:table-column column-width="proportional-column-width(12.489)" column-number="4" />
+					<fo:table-column column-width="proportional-column-width(12.136)" column-number="5" />
+					<fo:table-body border="1px none none">
+						<fo:table-row height="57.800pt" overflow="hidden">
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" text-align="left" display-align="before">
+								<fo:block text-align="left">
+									<fo:external-graphic src=".\Logo.jpg" content-width="66.6pt" content-height="66.6pt" scaling="uniform" xfd:resource-id="db216cf2-d965-433e-b143-372fa77a394c" />
+								</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block font-size="9pt"> </fo:block>
+								<fo:block font-size="9pt"> </fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/payorAddress1" fo:id="2C091B68" label="Payor Address 1" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/payorAddress2" fo:id="27F71B13" label="Payor Address 2" />, <xfd:field xpath="/root/paymentRecords/record/payorStateProv" fo:id="42E91B05" label="Payor State" /><xfd:field xpath="/root/paymentRecords/record/payorPostalCode" fo:id="12A31B06" label="Payor Postal Code" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" text-align="left" display-align="before">
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/bankName" fo:id="5384799" label="BankName" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/bankAddress1" fo:id="4621206" label="BankAddress1" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/bankAddress2" fo:id="5375838" label="BankAddress2" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/bankAddress3" fo:id="5574059" label="BankAddress3" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block>
+									<fo:table width="100%" table-layout="fixed">
+										<fo:table-column column-width="proportional-column-width(100)" column-number="1" />
+										<fo:table-body>
+											<fo:table-row>
+												<fo:table-cell border="1px solid Black" padding="2pt">
+													<fo:block text-align="center" border="1px none">Check Date</fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+											<fo:table-row>
+												<fo:table-cell border="1px solid Black" padding="2pt">
+													<fo:block text-align="center"><xfd:field xpath="/root/paymentRecords/record/checkDate" fo:id="5217964" label="CheckDate" format="date:MM/dd/yyyy" /></fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+										</fo:table-body>
+									</fo:table>
+								</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block><fo:table width="100%" table-layout="auto">
+										<fo:table-body>
+											<fo:table-row>
+												<fo:table-cell border="1px solid Black" padding="2pt">
+													<fo:block text-align="center">Number</fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+											<fo:table-row>
+												<fo:table-cell border-right="1px solid Black" border-bottom="1px solid Black" border-left="1px solid Black" padding="2pt">
+													<fo:block text-align="center"><xfd:field xpath="/root/paymentRecords/record/referenceNumber" fo:id="5447013" label="ReferenceNumber" /></fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+										</fo:table-body>
+									</fo:table> </fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+			<fo:block text-align="left">
+				<fo:table border-collapse="collapse" width="100%" table-layout="fixed">
+					<fo:table-column column-width="proportional-column-width(80.247)" column-number="1" />
+					<fo:table-column column-width="proportional-column-width(19.753)" column-number="2" />
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block border="1px none none"> <fo:block /> <fo:block />    PAY   <xfd:field xpath="/root/paymentRecords/record/checkAmount" fo:id="5479524" label="CheckAmount" format="currency:render-as-text" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" text-align="left" display-align="before">
+								<fo:block text-align="right"><fo:table border-collapse="collapse" width="auto" table-layout="fixed" border="1px none none">
+										<fo:table-column column-width="proportional-column-width(100)" column-number="1" />
+										<fo:table-body>
+											<fo:table-row>
+												<fo:table-cell border="1px solid Black" padding="2pt">
+													<fo:block break-before="Column" text-align="center">Amount</fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+											<fo:table-row>
+												<fo:table-cell border="1px solid Black" padding="2pt">
+													<fo:block text-align="center" border="1px none"><xfd:field xpath="/root/paymentRecords/record/checkAmount" fo:id="5455301" label="CheckAmount" format="currency:$#,##0.00 th:, dec:." /></fo:block>
+												</fo:table-cell>
+											</fo:table-row>
+										</fo:table-body>
+									</fo:table><fo:inline font-size="7pt" font-weight="bold">Void After 90 Days         </fo:inline></fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+			<fo:block text-align="left"><fo:table border-collapse="collapse" width="100%" table-layout="fixed">
+					<fo:table-column column-width="proportional-column-width(8.940)" column-number="1" />
+					<fo:table-column column-width="proportional-column-width(41.297)" column-number="2" />
+					<fo:table-column column-width="proportional-column-width(17.53)" column-number="3" />
+					<fo:table-column column-width="proportional-column-width(32.233)" column-number="4" />
+					<fo:table-body>
+						<fo:table-row>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" text-align="center">
+								<fo:block text-align="center" font-size="7pt" font-weight="bold">PAY<fo:block />TO THE<fo:block />ORDER<fo:block />OF</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/payeeName" fo:id="1B011B8C" label="Payee Name" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/payeeAddress1" fo:id="21701B8B" label="Payee Address" fo:font-weight="normal" /></fo:block>
+								<fo:block><xfd:field xpath="/root/paymentRecords/record/payeeAddress2" fo:id="158D1B92" label="Payee Address 2" fo:font-weight="normal" /> <xfd:field xpath="/root/paymentRecords/record/payeeStateProv" fo:id="17121B97" label="Payee State" fo:font-weight="normal" /> <xfd:field xpath="/root/paymentRecords/record/payeePostalCode" fo:id="57031B9A" label="Payee  Postal Code" fo:font-weight="normal" /></fo:block>
+								<fo:block>(<xfd:field xpath="/root/paymentRecords/record/vendorNumber" fo:id="468C1BAE" label="VendorNo." />)</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-bottom-style="solid" border-color="black black rgb(0, 0, 0) black" border="1pt " padding="2pt">
+								<fo:block font-size="9pt">
+									<fo:external-graphic src=".\Signature.png" content-width="162.75pt" />
+								</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block text-align="center"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-top-style="solid" border-top-color="rgb(0, 0, 0)" border-right-color="black" border-bottom-color="black" border-left-color="black" border-left-width="1pt" border-right-width="1pt" border-top-width="1pt" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block font-size="9pt" text-align="center">Authorized Agent</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block text-align="center"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-left-color="black" border-left-width="1pt" border-right-color="black" border-right-width="1pt" border-top-color="black" border-top-width="1pt" border-bottom-color="black" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt" number-columns-spanned="2">
+								<fo:block text-align="center" font-family="MICR">C<xfd:field xpath="/root/paymentRecords/record/referenceNumber" fo:id="4F7A1BC9" label="ReferenceNumber" fo:font-weight="normal" format="number:####00000000. th: dec:. sign:" />C A<xfd:field xpath="/root/configuration/transitNumber" fo:id="5177247" label="TransitNumber" />A <xfd:field xpath="/root/configuration/accountNumber" fo:id="5719636" label="AccountNumber" />C</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-top-color="rgb(0, 0, 0)" border-right-color="black" border-bottom-color="black" border-left-color="black" border-left-width="1pt" border-right-width="1pt" border-top-width="1pt" border-bottom-width="1pt" padding-left="2pt" padding-right="2pt" padding-top="2pt" padding-bottom="2pt">
+								<fo:block font-size="9pt" text-align="center"> </fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table> </fo:block>
+			<fo:block text-align="left"> </fo:block>
+			<fo:block text-align="left"> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-start">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="xsl-region-end">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Overflow-region-before">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Overflow-region-after">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Overflow-region-start">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Overflow-region-end">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Layout 1-region-before">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Layout 1-region-after">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Layout 1-region-start">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:static-content flow-name="Layout 1-region-end">
+			<fo:block> </fo:block>
+		</fo:static-content>
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block border-left="0pt  ">
+				<fo:table width="100%" table-layout="fixed" font-family="Courier New" font-size="9pt">
+					<fo:table-column column-width="proportional-column-width(13.733)" column-number="1" />
+					<fo:table-column column-width="proportional-column-width(25.176)" column-number="2" />
+					<fo:table-column column-width="proportional-column-width(9.683)" column-number="3" />
+					<fo:table-column column-width="proportional-column-width(15.022)" column-number="4" />
+					<fo:table-column column-width="proportional-column-width(17.225)" column-number="5" />
+					<fo:table-column column-width="proportional-column-width(19.16)" column-number="6" />
+					<fo:table-header border="1px none none" font-size="8pt" font-weight="bold">
+						<fo:table-row overflow="hidden" border-color="Black none" border-style="solid none" border="1px ">
+							<fo:table-cell border-left="1px solid Black" padding="2pt">
+								<fo:block>Invoice No.</fo:block>
+							</fo:table-cell>
+							<fo:table-cell padding="2pt">
+								<fo:block>Description</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" padding="2pt">
+								<fo:block>Date</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="center">Gross Amount </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="center">Discount Amount</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="center">Net Amount Paid</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-header>
+					<fo:table-footer border-top="1px solid Black">
+						<fo:table-row>
+							<fo:table-cell number-columns-spanned="2" padding="2pt">
+								<fo:block font-size="8pt">Detach at Perforation Before Depositing Check</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" padding="2pt">
+								<fo:block font-weight="bold" text-align="right">TOTALS:</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-bottom="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="sum(/root/paymentRecords/record[1]/detailRecords/detailRecord/invoiceGrossAmount)" fo:id="4658363" label="GrossSum" format="currency:$#,##0.00 th:, dec:." fo:font-weight="bold" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-bottom="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="sum(/root/paymentRecords/record[1]/detailRecords/detailRecord/invoiceDiscountAmount)" fo:id="4930219" label="DiscountSum" format="currency:$#,##0.00 th:, dec:." fo:font-weight="bold" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-bottom="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="sum(/root/paymentRecords/record[1]/detailRecords/detailRecord/invoiceNetPayment) " fo:id="5013650" label="NetSum" format="currency:$#,##0.00 th:, dec:." fo:font-weight="bold" /></fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-footer>
+					<fo:table-body>
+						<xfd:table-row-repeat xpath="/root/paymentRecords/record[1]/detailRecords/detailRecord" fo:id="5385925" label="DetailRecords">
+							<fo:table-cell border-left="1px solid Black" padding="2pt">
+								<fo:block><xfd:field xpath="invoiceNumber" fo:id="5FAC1B54" label="InvoiceNumber" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell padding="2pt">
+								<fo:block>
+									<xfd:block-repeat xpath="comments/comment" fo:id="4758264" label="Comment">
+										<fo:block><xfd:field xpath="." fo:id="5645217" label="Comments" /></fo:block>
+									</xfd:block-repeat>
+								</fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" padding="2pt">
+								<fo:block><xfd:field xpath="invoiceDate" fo:id="85F1B54C" label="InvoiceDate" /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="invoiceGrossAmount" fo:id="5645262" label="InvoiceGrossAmount" format="currency:$#,##0.00 th:, dec:." /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="invoiceDiscountAmount" fo:id="27FC1B55" label="InvoiceDiscountAmount" format="currency:$#,##0.00 th:, dec:." /></fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"><xfd:field xpath="invoiceNetPayment" fo:id="19791B54" label="InvoiceNetPayment" format="currency:$#,##0.00 th:, dec:." /></fo:block>
+							</fo:table-cell>
+						</xfd:table-row-repeat>
+						<fo:table-row>
+							<fo:table-cell border-left="1px solid Black" padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						<fo:table-row>
+							<fo:table-cell border-left="1px solid Black" padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" padding="2pt">
+								<fo:block> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+							<fo:table-cell border-right="1px solid Black" border-left="1px solid Black" padding="2pt">
+								<fo:block text-align="right"> </fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+					</fo:table-body>
+				</fo:table>
+			</fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+	<xfd:schema src="data:;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHhzOnNjaGVtYSBhdHRyaWJ1dGVGb3JtRGVmYXVsdD0idW5xdWFsaWZpZWQiIGVsZW1lbnRGb3JtRGVmYXVsdD0icXVhbGlmaWVkIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiPgogIDx4czplbGVtZW50IG5hbWU9InJvb3QiPgogICAgPHhzOmNvbXBsZXhUeXBlPgogICAgICA8eHM6c2VxdWVuY2U+CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQ29udHJvbCI+CiAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+CiAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJEaXNjb3VudEFtb3VudCIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ikdyb3NzUGF5bWVudEFtb3VudCIgdHlwZT0ieHM6dW5zaWduZWRJbnQiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iTmV0UGF5bWVudEFtb3VudCIgdHlwZT0ieHM6dW5zaWduZWRJbnQiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVjb3JkVHlwZSIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPgogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4KICAgICAgICA8L3hzOmVsZW1lbnQ+CiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSGVhZGVyIj4KICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkJhbmtBZGRyZXNzMSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJCYW5rQWRkcmVzczIiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFua0FkZHJlc3MzIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkJhbmtBZGRyZXNzNCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJCYW5rQWRkcmVzczUiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFua0NvdW50cnkiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFua0NvdW50cnlOYW1lIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkJhbmtOYW1lIiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFua1Bvc3RhbENvZGUiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iQmFua1N0YXRlUHJvdiIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJHTE5OdW1iZXIiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUGF5b3JBZGRyZXNzMSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXlvckFkZHJlc3MyIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheW9yQWRkcmVzczMiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUGF5b3JBZGRyZXNzNCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXlvckFkZHJlc3M1IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheW9yQ291bnRyeSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXlvckNvdW50cnlOYW1lIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheW9yTmFtZSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheW9yUG9zdGFsQ29kZSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXlvclN0YXRlUHJvdiIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZWNvcmRUeXBlIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+CiAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPgogICAgICAgIDwveHM6ZWxlbWVudD4KICAgICAgICA8eHM6ZWxlbWVudCBtYXhPY2N1cnM9InVuYm91bmRlZCIgbmFtZT0iSW5mb3JEZXRhaWxSZWNvcmRzIj4KICAgICAgICAgIDx4czpjb21wbGV4VHlwZT4KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkFjY291bnROdW1iZXJRdWFsaWZpZXIiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJCdXNpbmVzc0Z1bmN0aW9uQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNoZWNrQW1vdW50IiB0eXBlPSJ4czp1bnNpZ25lZEludCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJDaGVja0RhdGUiIHR5cGU9InhzOnVuc2lnbmVkSW50IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkNyZWRpdERlYml0RmxhZyIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkN1cnJlbmN5Q29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkRGSUlEUXVhbGlmaWVyIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRGF0ZVF1YWxpZmllciIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkVESU51bWJlciIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJFZmZlY3RpdmVFbnRyeURhdGUiIHR5cGU9InhzOnVuc2lnbmVkSW50IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkVudGl0eUlkQ29kZSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJFbnRpdHlJZGVudGlmaWVyQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkV4Y2hhbmdlUmF0ZSIgdHlwZT0ieHM6dW5zaWduZWRJbnQiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iR0xOTnVtYmVyIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkhhbmRsZUNvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJJZE51bWJlciIgdHlwZT0ieHM6dW5zaWduZWRTaG9ydCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJMZWdhbE5hbWUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJPcmlnRW50aXR5SWRlbnRpZmllckNvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJPcmlnaW5hdGluZ0FjY291bnROdW1iZXIiIHR5cGU9InhzOnVuc2lnbmVkSW50IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ik9yaWdpbmF0aW5nQ29tcGFueUlkIiB0eXBlPSJ4czp1bnNpZ25lZEludCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJPcmlnaW5hdGluZ0RGSUlETnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZEludCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXllZUFkZHJlc3MxIiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUGF5ZWVBZGRyZXNzMiIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXllZUFkZHJlc3MzIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheWVlQWRkcmVzczQiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUGF5ZWVBZGRyZXNzNSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheWVlQ291bnRyeSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheWVlQ291bnRyeU5hbWUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXllZU5hbWUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXllZVBvc3RhbENvZGUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXllZVN0YXRlUHJvdiIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBheW1lbnRGb3JtYXQiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXltZW50TWV0aG9kQ29kZSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG1heE9jY3Vycz0idW5ib3VuZGVkIiBuYW1lPSJQYXltZW50UmVjb3JkcyI+CiAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+CiAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJDaGVja051bWJlciIgdHlwZT0ieHM6dW5zaWduZWRTaG9ydCIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBtaW5PY2N1cnM9IjAiIG1heE9jY3Vycz0idW5ib3VuZGVkIiBuYW1lPSJDb21tZW50cyI+CiAgICAgICAgICAgICAgICAgICAgICA8eHM6Y29tcGxleFR5cGU+CiAgICAgICAgICAgICAgICAgICAgICAgIDx4czpzZXF1ZW5jZT4KICAgICAgICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJDb21tZW50IiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVjb3JkVHlwZSIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICAgICAgICAgICAgICA8L3hzOnNlcXVlbmNlPgogICAgICAgICAgICAgICAgICAgICAgPC94czpjb21wbGV4VHlwZT4KICAgICAgICAgICAgICAgICAgICA8L3hzOmVsZW1lbnQ+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iRGF0ZVF1YWxpZmllciIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ikludm9pY2VDdXJyZW5jeSIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ikludm9pY2VEYXRlIiB0eXBlPSJ4czp1bnNpZ25lZEludCIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJJbnZvaWNlRGlzY291bnRBbW91bnQiIHR5cGU9InhzOnVuc2lnbmVkQnl0ZSIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJJbnZvaWNlR3Jvc3NBbW91bnQiIHR5cGU9InhzOnVuc2lnbmVkSW50IiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9Ikludm9pY2VOZXRQYXltZW50IiB0eXBlPSJ4czp1bnNpZ25lZEludCIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJJbnZvaWNlTnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVR5cGUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVVzZXJGaWVsZDEiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVVzZXJGaWVsZDIiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVVzZXJGaWVsZDMiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVVzZXJGaWVsZDQiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSW52b2ljZVVzZXJGaWVsZDUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUE9Db2RlIiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlBPTnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUE9SZWxlYXNlTnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUHJvY2Vzc0xldmVsIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVhc29uQ29kZSIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlYXNvbkNvZGVEZXNjcmlwdGlvbiIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlY29yZFR5cGUiIHR5cGU9InhzOnVuc2lnbmVkQnl0ZSIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZWZlcmVuY2VOdW1iZXJRdWFsaWZpZXIiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJTdWZmaXgiIHR5cGU9InhzOnVuc2lnbmVkQnl0ZSIgLz4KICAgICAgICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWb3VjaGVyTnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgICAgIDwveHM6c2VxdWVuY2U+CiAgICAgICAgICAgICAgICA8L3hzOmNvbXBsZXhUeXBlPgogICAgICAgICAgICAgIDwveHM6ZWxlbWVudD4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQYXlvck5hbWUiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZWNlaXZpbmdBY2NvdW50TnVtYmVyIiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVjZWl2aW5nQWNjb3VudE51bWJlclF1YWxpZmllciIgdHlwZT0ieHM6c3RyaW5nIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlY2VpdmluZ0RGSUlEUXVhbGlmaWVyIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVjZWl2aW5nREZJSWROdW1iZXIiIHR5cGU9InhzOnN0cmluZyIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJSZWNvcmRUeXBlIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iUmVmZXJlbmNlTnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZFNob3J0IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlJlbWl0VG9Mb2NhdGlvbiIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUcmFjZVR5cGUiIHR5cGU9InhzOnVuc2lnbmVkQnl0ZSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWZW5kb3JBY2NvdW50TnVtYmVyIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvckNsYXNzIiB0eXBlPSJ4czpzdHJpbmciIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVmVuZG9yQ29udGFjdCIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWZW5kb3JFbWFpbEFkZHJlc3MiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVmVuZG9yRmF4RXh0ZW5zaW9uIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvckZheE51bWJlciIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWZW5kb3JGYXhQcmVmaXgiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVmVuZG9yTnVtYmVyIiB0eXBlPSJ4czp1bnNpZ25lZFNob3J0IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvclBob25lRXh0ZW5zaW9uIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvclBob25lTnVtYmVyIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvclBob25lUHJlZml4IiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvclVzZXJGaWVsZDEiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVmVuZG9yVXNlckZpZWxkMiIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWZW5kb3JVc2VyRmllbGQzIiAvPgogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlZlbmRvclVzZXJGaWVsZDQiIC8+CiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVmVuZG9yVXNlckZpZWxkNSIgLz4KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJWZW5kb3JVc2VyRmllbGQ2IiAvPgogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPgogICAgICAgICAgPC94czpjb21wbGV4VHlwZT4KICAgICAgICA8L3hzOmVsZW1lbnQ+CiAgICAgIDwveHM6c2VxdWVuY2U+CiAgICA8L3hzOmNvbXBsZXhUeXBlPgogIDwveHM6ZWxlbWVudD4KPC94czpzY2hlbWE+" />
+</xfd:document>

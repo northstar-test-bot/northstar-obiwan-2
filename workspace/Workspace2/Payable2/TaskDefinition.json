@@ -1,0 +1,79 @@
+{
+  "name": "Invoice Review and Approve",
+  "description": "Invoice review and approval workflow",
+  "enableNotifications": true,
+  "requestMoreInfo": true,
+  "sendEmailOnCreate": true,
+  "sendEmailOnTransition": true,
+  "sendEmailOnIdle": true,
+  "reminderFrequencyHours": 24,
+  "enableEscalation": true,
+  "escalationPeriodHours": 48,
+  "workItem": "Invoice",
+  "states": [
+    {
+      "id": "a27aebe0-b522-400f-9983-c2c394984fe1",
+      "name": "Waiting for Approval",
+      "status": "Processing",
+      "type": "Initial",
+      "positivePath": "true",
+      "actions": [
+        {
+          "name": "Disapprove",
+          "buttonColor": "#f2994a",
+          "isPrimary": true,
+          "destinationStateId": "fb6bf6c1-c912-471d-999b-5c932535b4b9",
+          "requireDataValidation": false,
+          "completeActionIfValidationFailed": false
+        },
+        {
+          "name": "Approve",
+          "buttonColor": "#38a83c",
+          "isPrimary": true,
+          "destinationStateId": "88ce87db-04a2-4c58-ac44-09bce2de7c98",
+          "requireDataValidation": false,
+          "completeActionIfValidationFailed": false
+        }
+      ]
+    },
+    {
+      "id": "fb6bf6c1-c912-471d-999b-5c932535b4b9",
+      "name": "Disapproved",
+      "status": "Processing",
+      "type": "Intermediate",
+      "positivePath": "false",
+      "actions": [
+        {
+          "name": "Override Approve",
+          "buttonColor": "#38a83c",
+          "isPrimary": true,
+          "destinationStateId": "a27aebe0-b522-400f-9983-c2c394984fe1",
+          "requireDataValidation": false,
+          "completeActionIfValidationFailed": false
+        },
+        {
+          "name": "Reject",
+          "buttonColor": "#f0483f",
+          "isPrimary": true,
+          "destinationStateId": "cb8c9ca0-8296-4def-b59c-6f5522b96c91",
+          "requireDataValidation": false,
+          "completeActionIfValidationFailed": false
+        }
+      ]
+    },
+    {
+      "id": "cb8c9ca0-8296-4def-b59c-6f5522b96c91",
+      "name": "Rejected",
+      "status": "Rejected",
+      "type": "Final",
+      "positivePath": "false"
+    },
+    {
+      "id": "88ce87db-04a2-4c58-ac44-09bce2de7c98",
+      "name": "Approved",
+      "status": "Completed",
+      "type": "Final",
+      "positivePath": "true"
+    }
+  ]
+}

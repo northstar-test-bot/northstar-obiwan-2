@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="97">
+  <das:open-api-data-source id="7" connection-id="6" name="/api/internal/vendors" path="/api/internal/vendors">
+    <das:hierarchical-data-source id="8" name="root">
+      <das:hierarchical-data-source id="9" name="array">
+        <das:hierarchical-data-source id="11" name="id">
+          <das:field id="12" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="13" name="name">
+          <das:field id="14" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="15" name="number">
+          <das:field id="16" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="17" name="termCode">
+          <das:field id="18" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="19" name="email">
+          <das:field id="20" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="21" name="vendorAccount">
+          <das:field id="22" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="23" name="street">
+          <das:field id="24" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="25" name="city">
+          <das:field id="26" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="27" name="state">
+          <das:field id="28" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="29" name="zip">
+          <das:field id="30" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="31" name="countryCode">
+          <das:field id="32" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="33" name="businessUnitId">
+          <das:field id="34" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="35" name="vatid">
+          <das:field id="36" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="37" name="nationalVATID">
+          <das:field id="38" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="39" name="iban">
+          <das:field id="40" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="41" name="bankAccountNumber">
+          <das:field id="42" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="43" name="bankCode">
+          <das:field id="44" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="45" name="glCode">
+          <das:field id="46" name="text()" />
+        </das:hierarchical-data-source>
+        <das:field id="10" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+    <das:in-param id="47" name="SearchTerm" src="94" />
+  </das:open-api-data-source>
+  <das:output id="4">
+    <das:element id="5" name="VendorList" disable-namespace="true">
+      <das:element-sequence id="49" name="VendorModel" disable-namespace="true" data-source="9">
+        <das:element id="50" name="Id" disable-namespace="true">
+          <das:attribute id="77" name="text()" value="16" />
+        </das:element>
+        <das:element id="51" name="Name" disable-namespace="true">
+          <das:attribute id="76" name="text()" value="14" />
+        </das:element>
+        <das:element id="52" name="Street" disable-namespace="true">
+          <das:attribute id="75" name="text()" value="24" />
+        </das:element>
+        <das:element id="53" name="City" disable-namespace="true">
+          <das:attribute id="74" name="text()" value="26" />
+        </das:element>
+        <das:element id="54" name="State" disable-namespace="true">
+          <das:attribute id="73" name="text()" value="28" />
+        </das:element>
+        <das:element id="55" name="ZIP" disable-namespace="true">
+          <das:attribute id="72" name="text()" value="30" />
+        </das:element>
+        <das:element id="56" name="CountryCode" disable-namespace="true">
+          <das:attribute id="71" name="text()" value="32" />
+        </das:element>
+        <das:element id="57" name="BusinessUnitId" disable-namespace="true">
+          <das:attribute id="70" name="text()" value="34" />
+        </das:element>
+        <das:element id="58" name="VATID" disable-namespace="true">
+          <das:attribute id="69" name="text()" value="36" />
+        </das:element>
+        <das:element id="59" name="NationalVATID" disable-namespace="true">
+          <das:attribute id="68" name="text()" value="38" />
+        </das:element>
+        <das:element id="60" name="IBAN" disable-namespace="true">
+          <das:attribute id="67" name="text()" value="40" />
+        </das:element>
+        <das:element id="61" name="BankAccountNumber" disable-namespace="true">
+          <das:attribute id="66" name="text()" value="42" />
+        </das:element>
+        <das:element id="62" name="BankCode" disable-namespace="true">
+          <das:attribute id="65" name="text()" value="44" />
+        </das:element>
+        <das:element id="63" name="GLCode" disable-namespace="true">
+          <das:attribute id="64" name="text()" value="46" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-note id="2" x="350.000" y="25.000" width="500.000" height="100.000" text="Start by adding tables, SQL queries, XML files or Web services into this diagram.         Drag and drop fields over the Output element in order to map that field to an output value." title="Getting started" />
+    <dia:diagram-output id="4" x="902.124" y="257.124" width="304.499" height="600.124" />
+    <dia:diagram-open-api-data-source id="7" x="233.999" y="255.874" width="512.624" height="728.249" />
+    <dia:diagram-subdocument-param id="94" x="43.374" y="273.999" width="134.499" height="35.000" />
+    <dia:connection id="78" src="9" dest="49" />
+    <dia:connection id="79" src="16" dest="77" />
+    <dia:connection id="80" src="14" dest="76" />
+    <dia:connection id="81" src="24" dest="75" />
+    <dia:connection id="82" src="26" dest="74" />
+    <dia:connection id="84" src="30" dest="72" />
+    <dia:connection id="85" src="28" dest="73" />
+    <dia:connection id="86" src="32" dest="71" />
+    <dia:connection id="87" src="36" dest="69" />
+    <dia:connection id="88" src="34" dest="70" />
+    <dia:connection id="89" src="40" dest="67" />
+    <dia:connection id="90" src="38" dest="68" />
+    <dia:connection id="91" src="42" dest="66" />
+    <dia:connection id="92" src="44" dest="65" />
+    <dia:connection id="93" src="46" dest="64" />
+    <dia:connection id="95" src="94" dest="47" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="6" name="BuiltIn REST API" />
+  </das:database-connections>
+  <das:subdocument-param id="94" name="SearchTerm" type="string" />
+</das:job>

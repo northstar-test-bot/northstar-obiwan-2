@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="28">
+  <das:open-api-data-source id="20" connection-id="6" name="/api/internal/purchase-order-line-items/last-update-date" path="/api/internal/purchase-order-line-items/last-update-date">
+    <das:hierarchical-data-source id="21" name="root">
+      <das:hierarchical-data-source id="22" name="lastUpdateDate">
+        <das:field id="23" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+  </das:open-api-data-source>
+  <das:output id="4">
+    <das:element id="5" name="root" disable-namespace="true">
+      <das:element-sequence id="14" name="LastUpdateDate" disable-namespace="true" data-source="22">
+        <das:element id="15" name="Date" disable-namespace="true">
+          <das:attribute id="16" name="text()" value="23" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-note id="2" x="350.000" y="25.000" width="500.000" height="100.000" text="Start by adding tables, SQL queries, XML files or Web services into this diagram.         Drag and drop fields over the Output element in order to map that field to an output value." title="Getting started" />
+    <dia:diagram-output id="4" x="500.000" y="350.000" width="200.000" height="100.000" />
+    <dia:diagram-open-api-data-source id="20" x="268.000" y="337.000" width="200.000" height="100.000" />
+    <dia:diagram-subdocument-param id="25" x="10.000" y="10.000" width="80.000" height="35.000" />
+    <dia:connection id="26" src="25" dest="24" />
+    <dia:connection id="27" src="22" dest="14" />
+    <dia:connection id="28" src="23" dest="16" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="6" name="BuiltIn REST API" />
+  </das:database-connections>
+</das:job>

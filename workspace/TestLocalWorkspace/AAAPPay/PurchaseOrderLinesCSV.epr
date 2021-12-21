@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xfd:document xmlns:xfd="http://www.ecrion.com/xfd/1.0" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xf="http://www.ecrion.com/xf/1.0" xmlns:xc="http://www.ecrion.com/2008/xc" sample-xml=".\PurchaseOrderLineExport.xml">
+	<xfd:localization>
+		
+	<xfd:locale language-id="en_US" language-name="English (United States)" /></xfd:localization>
+	<xf:stylesheet src="data:;base64,LypEZWZhdWx0IHN0eWxlcyovDQouTm9ybWFsDQp7DQoJZm9udC1mYW1pbHk6IENhbGlicmk7DQoJZm9udC1zaXplOiA4cHQ7DQp9DQoNCi5Ob1NwYWNpbmcNCnsNCglmb250LWZhbWlseTogQ2FsaWJyaTsNCglmb250LXNpemU6IDhwdDsNCn0NCg0KLkhlYWRpbmcxDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiAxMHB0Ow0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KCWNvbG9yOiAjMzY1RjkxOw0KfQ0KDQouSGVhZGluZzINCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDEwcHQ7DQoJZm9udC13ZWlnaHQ6IGJvbGQ7DQoJY29sb3I6ICM0RjgxQkQ7DQp9DQoNCi5UaXRsZQ0Kew0KCWZvbnQtZmFtaWx5OiBDYW1icmlhOw0KCWZvbnQtc2l6ZTogMjBwdDsNCglmb250LXdlaWdodDogYm9sZDsNCgljb2xvcjogIzE3MzY1RDsNCn0NCg0KLlN1YnRpdGxlDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiA5cHQ7DQoJdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7DQoJZm9udC1zdHlsZTogaXRhbGljOwkNCgljb2xvcjogIzRGODFCRDsNCn0NCg0KLlN1YnRpdGxlRW1waGFzaXMNCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDlwdDsNCgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsNCgljb2xvcjogIzgwODA4MDsNCn0NCg0KLkVtcGhhc2lzDQp7DQoJZm9udC1zdHlsZTogaXRhbGljOwkNCglmb250LXNpemU6IDE5cHQ7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQp9DQoNCi5JbnRlbnNlRW1waGFzaXMNCnsNCglmb250LWZhbWlseTogQ2FtYnJpYTsNCglmb250LXNpemU6IDE5cHQ7DQoJZm9udC1zdHlsZTogaXRhbGljOw0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KCWNvbG9yOiAjNEY4MUJEOw0KfQ0KDQouU3Ryb25nDQp7DQoJZm9udC1mYW1pbHk6IENhbWJyaWE7DQoJZm9udC1zaXplOiAxOXB0Ow0KCWZvbnQtd2VpZ2h0OiBib2xkOw0KfQ==" default-stylesheet="true" />
+	<xfd:schema src="data:;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjx4czpzY2hlbWEgYXR0cmlidXRlRm9ybURlZmF1bHQ9InVucXVhbGlmaWVkIiBlbGVtZW50Rm9ybURlZmF1bHQ9InF1YWxpZmllZCIgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIj4NCiAgPHhzOmVsZW1lbnQgbmFtZT0iUHVyY2hhc2VPcmRlckxpbmVzIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8eHM6c2VxdWVuY2U+DQogICAgICAgIDx4czplbGVtZW50IG1heE9jY3Vycz0idW5ib3VuZGVkIiBuYW1lPSJQdXJjaGFzZU9yZGVyTGluZSI+DQogICAgICAgICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJQT051bWJlciIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJBcnRpY2xlIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IkRlc2NyaXB0aW9uIiB0eXBlPSJ4czpzdHJpbmciIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlF1YW50aXR5IiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+DQogICAgICAgICAgICAgIDx4czplbGVtZW50IG5hbWU9IlVuaXRQcmljZSIgdHlwZT0ieHM6dW5zaWduZWRCeXRlIiAvPg0KICAgICAgICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUb3RhbFByaWNlTmV0dG8iIHR5cGU9InhzOnVuc2lnbmVkQnl0ZSIgLz4NCiAgICAgICAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iSXRlbUlkIiB0eXBlPSJ4czp1bnNpZ25lZEJ5dGUiIC8+DQogICAgICAgICAgICA8L3hzOnNlcXVlbmNlPg0KICAgICAgICAgIDwveHM6Y29tcGxleFR5cGU+DQogICAgICAgIDwveHM6ZWxlbWVudD4NCiAgICAgIDwveHM6c2VxdWVuY2U+DQogICAgPC94czpjb21wbGV4VHlwZT4NCiAgPC94czplbGVtZW50Pg0KPC94czpzY2hlbWE+" />
+	<xfd:xslt-engine name="MsXml" />
+	<fo:layout-master-set>
+		<fo:simple-page-master fo:master-name="Letter Page" fo:page-width="612pt" fo:page-height="indefinite">
+			<fo:region-body region-name="xsl-region-body" margin="0pt"/>
+			<fo:region-before region-name="xsl-region-before" extent="0pt"/>
+			<fo:region-after region-name="xsl-region-after" extent="0pt"/>
+			<fo:region-start region-name="xsl-region-start" extent="0pt"/>
+			<fo:region-end region-name="xsl-region-end" extent="0pt"/>
+		</fo:simple-page-master>
+	</fo:layout-master-set>
+	<fo:page-sequence master-reference="Letter Page">
+    <fo:static-content flow-name="xsl-region-before">
+      <fo:block> </fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-after">
+      <fo:block> </fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-start">
+      <fo:block> </fo:block>
+    </fo:static-content>
+    <fo:static-content flow-name="xsl-region-end">
+      <fo:block> </fo:block>
+    </fo:static-content>
+		<fo:flow flow-name="xsl-region-body">
+			<fo:block>PONumber,Article,Description,Quantity,UnitPrice,TotalPriceNetto,ItemId</fo:block>
+			<fo:block>
+    <xfd:block-repeat xpath="/PurchaseOrderLines/PurchaseOrderLine" fo:id="5711935" label="PurchaseOrderLine">
+      <fo:block><xfd:field xpath="PONumber" fo:id="5719417" label="PONumber"/>,<xfd:field xpath="Article" fo:id="5405030" label="Article"/>,<xfd:field xpath="Description" fo:id="5003683" label="Description"/>,<xfd:field xpath="Quantity" fo:id="5294701" label="Quantity"/>,<xfd:field xpath="UnitPrice" fo:id="5380427" label="UnitPrice"/>,<xfd:field xpath="TotalPriceNetto" fo:id="4935124" label="TotalPriceNetto"/>,<xfd:field xpath="ItemId" fo:id="5103682" label="ItemId"/></fo:block>
+    </xfd:block-repeat>
+  </fo:block>
+		</fo:flow>
+	</fo:page-sequence>
+</xfd:document>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<das:job xmlns:das="http://www.ecrion.com/das/1.0" last-id="183">
+  <das:const-function id="70">
+    <das:const-return-value id="71" value="infor" type="string" />
+  </das:const-function>
+  <das:is-not-empty-function id="84">
+    <das:return-value id="86" />
+    <das:in-param id="85" name="string" src="35" />
+  </das:is-not-empty-function>
+  <das:and-function id="97">
+    <das:return-value id="100" />
+    <das:in-param id="98" src="86" />
+    <das:in-param id="99" src="114" />
+  </das:and-function>
+  <das:is-not-empty-function id="112">
+    <das:return-value id="114" />
+    <das:in-param id="113" name="string" src="37" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="116">
+    <das:return-value id="118" />
+    <das:in-param id="117" name="string" src="39" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="125">
+    <das:return-value id="126" />
+    <das:in-param id="127" name="string" src="41" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="129">
+    <das:return-value id="130" />
+    <das:in-param id="131" name="string" src="43" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="133">
+    <das:return-value id="134" />
+    <das:in-param id="135" name="string" src="45" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="137">
+    <das:return-value id="138" />
+    <das:in-param id="139" name="string" src="47" />
+  </das:is-not-empty-function>
+  <das:is-not-empty-function id="141">
+    <das:return-value id="142" />
+    <das:in-param id="143" name="string" src="49" />
+  </das:is-not-empty-function>
+  <das:and-function id="147">
+    <das:return-value id="148" />
+    <das:in-param id="149" src="100" />
+    <das:in-param id="150" src="118" />
+  </das:and-function>
+  <das:and-function id="153">
+    <das:return-value id="154" />
+    <das:in-param id="155" src="148" />
+    <das:in-param id="156" src="126" />
+  </das:and-function>
+  <das:and-function id="159">
+    <das:return-value id="160" />
+    <das:in-param id="161" src="154" />
+    <das:in-param id="162" src="130" />
+  </das:and-function>
+  <das:and-function id="165">
+    <das:return-value id="166" />
+    <das:in-param id="167" src="160" />
+    <das:in-param id="168" src="134" />
+  </das:and-function>
+  <das:and-function id="171">
+    <das:return-value id="172" />
+    <das:in-param id="173" src="176" />
+    <das:in-param id="174" src="142" />
+  </das:and-function>
+  <das:and-function id="175">
+    <das:return-value id="176" />
+    <das:in-param id="177" src="166" />
+    <das:in-param id="178" src="138" />
+  </das:and-function>
+  <das:open-api-data-source id="7" connection-id="6" pagination-type="paginationlinks" name="/lmrkfin/soap/classes/CodeBlockRelationDetail/lists/_generic" path="/lmrkfin/soap/classes/CodeBlockRelationDetail/lists/_generic">
+    <das:pagination base-xpath="/root/array/_links/">
+      <das:pagination-links xpath="/href"></das:pagination-links>
+      <das:pagination-links-condition xpath="/rel" value="next"></das:pagination-links-condition>
+    </das:pagination>
+    <das:hierarchical-data-source id="8" name="root">
+      <das:hierarchical-data-source id="9" name="array">
+        <das:hierarchical-data-source id="11" name="message">
+          <das:field id="12" name="text()" />
+        </das:hierarchical-data-source>
+        <das:hierarchical-data-source id="13" name="_fields">
+          <das:hierarchical-data-source id="34" name="UniqueID">
+            <das:field id="35" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="36" name="CodeBlockRelation">
+            <das:field id="37" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="38" name="CodeBlockRelationDetail">
+            <das:field id="39" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="40" name="FinanceEnterpriseGroup">
+            <das:field id="41" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="42" name="SortFromValue">
+            <das:field id="43" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="44" name="KeyFromValue">
+            <das:field id="45" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="46" name="SortToValue">
+            <das:field id="47" name="text()" />
+          </das:hierarchical-data-source>
+          <das:hierarchical-data-source id="48" name="KeyToValue">
+            <das:field id="49" name="text()" />
+          </das:hierarchical-data-source>
+          <das:field id="14" name="text()" />
+        </das:hierarchical-data-source>
+        <das:field id="10" name="text()" />
+      </das:hierarchical-data-source>
+    </das:hierarchical-data-source>
+    <das:in-param id="15" name="_fields" src="28" />
+    <das:in-param id="16" name="_limit" src="30" />
+    <das:in-param id="17" name="_paging" is-optional="true" />
+    <das:in-param id="18" name="_fts" is-optional="true" />
+    <das:in-param id="19" name="_tts" is-optional="true" />
+    <das:in-param id="20" name="_rrs" is-optional="true" />
+    <das:in-param id="21" name="_syncWait" is-optional="true" />
+    <das:in-param id="22" name="_filter" is-optional="true" />
+    <das:in-param id="23" name="_lplFilter" is-optional="true" />
+    <das:in-param id="24" name="_setName" is-optional="true" />
+    <das:in-param id="25" name="_links" is-optional="true" />
+    <das:in-param id="26" name="_pageNav" src="32" is-optional="true" />
+    <das:in-param id="27" name="_out" is-optional="true" />
+  </das:open-api-data-source>
+  <das:output id="4">
+    <das:element id="5" name="GeneralLedgerRelationDetailList" disable-namespace="true">
+      <das:element-sequence id="50" name="GeneralLedgerRelationDetail" disable-namespace="true" data-source="81">
+        <das:element id="51" name="SourceSystem" disable-namespace="true">
+          <das:attribute id="52" name="text()" value="71" />
+        </das:element>
+        <das:element id="53" name="SourceSystemId" disable-namespace="true">
+          <das:attribute id="54" name="text()" value="35" />
+        </das:element>
+        <das:element id="55" name="Relation" disable-namespace="true">
+          <das:attribute id="56" name="text()" value="37" />
+        </das:element>
+        <das:element id="57" name="RelationDetail" disable-namespace="true">
+          <das:attribute id="58" name="text()" value="39" />
+        </das:element>
+        <das:element id="59" name="FinanceEnterpriseGroup" disable-namespace="true">
+          <das:attribute id="60" name="text()" value="41" />
+        </das:element>
+        <das:element id="61" name="ReferenceAccount">
+          <das:attribute id="62" name="text()" value="43" />
+        </das:element>
+        <das:element id="63" name="ReferenceValue" disable-namespace="true">
+          <das:attribute id="64" name="text()" value="45" />
+        </das:element>
+        <das:element id="65" name="DependentAccount" disable-namespace="true">
+          <das:attribute id="66" name="text()" value="47" />
+        </das:element>
+        <das:element id="67" name="DependentValue" disable-namespace="true">
+          <das:attribute id="68" name="text()" value="49" />
+        </das:element>
+      </das:element-sequence>
+    </das:element>
+  </das:output>
+  <das:filter-function id="81" data-source="9" filter="172" />
+  <dia:diagram xmlns:dia="http://www.ecrion.com/dia/1.0">
+    <dia:diagram-open-api-data-source id="7" x="235.333" y="355.999" width="509.333" height="477.333" />
+    <dia:diagram-subdocument-param id="28" x="38.666" y="375.333" width="80.000" height="35.000" />
+    <dia:diagram-subdocument-param id="30" x="39.999" y="437.333" width="80.000" height="35.000" />
+    <dia:diagram-subdocument-param id="32" x="35.999" y="562.666" width="117.333" height="36.666" />
+    <dia:diagram-const-function id="70" x="1069.332" y="425.999" width="80.000" height="35.333" />
+    <dia:diagram-filter-function id="81" x="1046.666" y="233.333" width="100.666" height="50.000" />
+    <dia:diagram-function id="84" x="801.332" y="459.333" width="140.000" height="65.000" />
+    <dia:diagram-function id="97" x="971.999" y="465.333" width="60.000" height="35.000" />
+    <dia:diagram-function id="112" x="803.332" y="502.666" width="140.666" height="65.333" />
+    <dia:diagram-function id="116" x="804.666" y="543.999" width="140.000" height="65.333" />
+    <dia:diagram-function id="125" x="804.666" y="582.666" width="140.000" height="65.000" />
+    <dia:diagram-function id="129" x="804.666" y="613.332" width="140.000" height="65.000" />
+    <dia:diagram-function id="133" x="805.999" y="643.999" width="140.000" height="65.333" />
+    <dia:diagram-function id="137" x="804.666" y="675.999" width="140.666" height="65.333" />
+    <dia:diagram-function id="141" x="803.999" y="707.332" width="140.000" height="65.333" />
+    <dia:diagram-function id="147" x="969.999" y="551.332" width="60.000" height="35.000" />
+    <dia:diagram-function id="153" x="973.332" y="591.332" width="60.000" height="35.000" />
+    <dia:diagram-function id="159" x="973.332" y="621.332" width="60.000" height="35.000" />
+    <dia:diagram-function id="165" x="975.999" y="653.999" width="60.000" height="35.000" />
+    <dia:diagram-function id="171" x="977.332" y="726.666" width="60.000" height="35.000" />
+    <dia:diagram-function id="175" x="976.666" y="687.332" width="60.000" height="35.000" />
+    <dia:connection id="29" src="28" dest="15" />
+    <dia:connection id="31" src="30" dest="16" />
+    <dia:connection id="33" src="32" dest="26" />
+    <dia:connection id="72" src="71" dest="52" />
+    <dia:connection id="73" src="35" dest="54" />
+    <dia:connection id="74" src="37" dest="56" />
+    <dia:connection id="75" src="39" dest="58" />
+    <dia:connection id="76" src="41" dest="60" />
+    <dia:connection id="77" src="43" dest="62" />
+    <dia:connection id="78" src="45" dest="64" />
+    <dia:connection id="79" src="47" dest="66" />
+    <dia:connection id="80" src="49" dest="68" />
+    <dia:connection id="82" src="9" dest="81:datasource" />
+    <dia:connection id="83" src="81" dest="50" />
+    <dia:connection id="87" src="35" dest="85" />
+    <dia:connection id="115" src="37" dest="113" />
+    <dia:connection id="119" src="39" dest="117" />
+    <dia:connection id="128" src="41" dest="127" />
+    <dia:connection id="132" src="43" dest="131" />
+    <dia:connection id="136" src="45" dest="135" />
+    <dia:connection id="140" src="47" dest="139" />
+    <dia:connection id="144" src="49" dest="143" />
+    <dia:connection id="145" src="86" dest="98" />
+    <dia:connection id="146" src="114" dest="99" />
+    <dia:connection id="151" src="100" dest="149" />
+    <dia:connection id="152" src="118" dest="150" />
+    <dia:connection id="157" src="148" dest="155" />
+    <dia:connection id="158" src="126" dest="156" />
+    <dia:connection id="163" src="130" dest="162" />
+    <dia:connection id="164" src="154" dest="161" />
+    <dia:connection id="169" src="160" dest="167" />
+    <dia:connection id="170" src="134" dest="168" />
+    <dia:connection id="179" src="166" dest="177" />
+    <dia:connection id="180" src="138" dest="178" />
+    <dia:connection id="181" src="176" dest="173" />
+    <dia:connection id="182" src="142" dest="174" />
+    <dia:connection id="183" src="172" dest="81:filter" />
+  </dia:diagram>
+  <das:database-connections>
+    <das:database-connection id="6" name="Infor REST API" />
+  </das:database-connections>
+  <das:subdocument-param id="28" name="_fields" value="UniqueID,CodeBlockRelation,CodeBlockRelationDetail,FinanceEnterpriseGroup,SortFromValue,KeyFromValue,SortToValue,KeyToValue" type="string" />
+  <das:subdocument-param id="30" name="_limit" value="1000" type="int" />
+  <das:subdocument-param id="32" name="_pageNav" value="True" type="bool" />
+</das:job>

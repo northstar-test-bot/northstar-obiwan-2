@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<books>
+
+  <book id="1">
+    <title>Lord Of the Rings.</title>
+    <info>
+	  <country>United Kingdom</country>
+      <author>J. R. R. Tolkien</author>
+    </info>
+   </book>
+
+  <book id="2">
+    <title>Principia Mathematica</title>
+    <info>
+	  <country>U.S.A</country>
+      <author>http://google.ro/</author>
+      <author>Alfred North Whitehead</author>
+    </info>
+  </book>
+
+  <book id="3">
+    <title>Black Holes, White Dwarfs and Neutron Stars: The Physics of Compact Objects</title>
+    <info>
+	  <country>U.S.A</country>
+      <author>Stuart L. Shapiro</author>
+      <author>Saul A. Teukolsky</author>
+    </info>
+  </book>
+  
+</books>
